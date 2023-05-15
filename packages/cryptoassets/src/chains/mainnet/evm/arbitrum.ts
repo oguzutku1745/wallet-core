@@ -9,7 +9,7 @@ export default new EvmChain({
 
   nativeAsset: [
     {
-      name: 'Arbitrum ETH',
+      name: 'Localins ETH',
       chain: ChainId.Arbitrum,
       type: AssetTypes.native,
       code: 'ARBETH',

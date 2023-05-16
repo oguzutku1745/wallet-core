@@ -6,8 +6,10 @@ import terraTokens from './terra-tokens';
 
 import { AssetMap } from '../../../types';
 import { transformChainToTokenAddress } from '../../utils';
+import gnosisTokens from './gnosis-tokens';
 
 const TESTNET_ERC20_ASSETS: AssetMap = {
+  ...gnosisTokens,
   ...ethereumTokens,
   ...optimismTokens,
   ...polygonTokens,

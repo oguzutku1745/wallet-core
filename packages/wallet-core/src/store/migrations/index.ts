@@ -12,6 +12,7 @@ import { removeExistingLedgerAccounts } from './19_remove_existing_ledger_accoun
 import { addMissingAccounts } from './20_fix_accounts';
 import { enableSolanaChain } from './21_enable_solana_chain';
 import { enableOptimismChain } from './22_enable_optimism_chain';
+import { enableGnosisChain } from './23_enable_gnosis_chain';
 
 // Migrations
 import { firstMigration } from './1_first_migration';
@@ -47,6 +48,7 @@ const migrations = [
   addMissingAccounts, // v20
   enableSolanaChain, // v21
   enableOptimismChain, // v22
+  enableGnosisChain, // v23
 ];
 
 const LATEST_VERSION = migrations[migrations.length - 1].version;

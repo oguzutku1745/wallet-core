@@ -44,6 +44,7 @@ const config: WalletCoreConfig = {
     mainnet: [
       'BTC',
       'ETH',
+      'GNO',
       'DAI',
       'USDC',
       'USDT',

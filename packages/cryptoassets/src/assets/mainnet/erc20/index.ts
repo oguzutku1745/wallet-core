@@ -1,5 +1,6 @@
 import arbitrumTokens from './arbitrum-tokens';
 import avalancheTokens from './avalanche-tokens';
+import gnosisTokens from './gnosis-tokens';
 import ethereumTokens from './ethereum-tokens';
 import optimismTokens from './optimism-tokens';
 import polygonTokens from './polygon-tokens';
@@ -11,6 +12,7 @@ import { AssetMap } from '../../../types';
 import { transformChainToTokenAddress } from '../../utils';
 
 const MAINNET_ERC20_ASSETS: AssetMap = {
+  ...gnosisTokens,
   ...arbitrumTokens,
   ...avalancheTokens,
   ...ethereumTokens,

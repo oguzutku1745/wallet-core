@@ -1,6 +1,7 @@
 import { ChainId, ChainsMap } from '../../types';
 
 import ArbitrumChain from './evm/arbitrum';
+import GnosisChain from './evm/gnosis';
 import AvalancheChain from './evm/avalanche';
 import BscChain from './evm/bsc';
 import EthereumChain from './evm/ethereum';
@@ -12,6 +13,7 @@ import RskChain from './evm/rsk';
 export const TESTNET_EVM_CHAINS: ChainsMap = {
   [ChainId.Ethereum]: EthereumChain,
   [ChainId.BinanceSmartChain]: BscChain,
+  [ChainId.Gnosis]: GnosisChain,
   [ChainId.Polygon]: PolygonChain,
   [ChainId.Arbitrum]: ArbitrumChain,
   [ChainId.Fuse]: FuseChain,

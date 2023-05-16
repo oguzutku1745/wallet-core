@@ -2,13 +2,13 @@ import { ChainId } from '../../../types';
 import { transformTokenMap } from '../../utils';
 
 const TOKENS = {
-  GNOSIS: {
-    name: 'Gnosis',
-    code: 'GNO',
+  WXDAI: {
+    name: 'Wrapped XDAI',
+    code: 'WXDAI',
     decimals: 18,
-    contractAddress: '0xe91D153E0b41518A2Ce8Dd3D7944Fa863463a97d',
+    contractAddress: '0x18c8a7ec7897177E4529065a7E7B0878358B3BfF',
     color: '#5b31b9',
-    matchingAsset: 'GNO',
+    matchingAsset: 'DAI',
   },
 };
 

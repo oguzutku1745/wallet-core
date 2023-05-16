@@ -8,11 +8,11 @@ export default new EvmChain({
   color: '#F7CA4F',
   nativeAsset: [
     {
-      name: 'GNO',
+      name: 'XDAI',
       chain: ChainId.Gnosis,
       type: AssetTypes.native,
-      code: 'GNO',
-      priceSource: { coinGeckoId: 'gnosis' },
+      code: 'XDAI',
+      priceSource: { coinGeckoId: 'xdai' },
       color: '#f9a825',
       decimals: 18,
     },

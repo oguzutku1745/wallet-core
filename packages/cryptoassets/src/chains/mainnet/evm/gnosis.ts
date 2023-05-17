@@ -29,7 +29,7 @@ export default new EvmChain({
     networkId: 100,
     chainId: 100,
     isTestnet: false,
-    rpcUrls: ['https://rpc.gnosischain.com'],
+    rpcUrls: ['https://primary.gnosis-chain.rpc.hoprtech.net'],
   },
   explorerViews: [
     {

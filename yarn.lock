@@ -1813,7 +1813,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@ethersproject/networks@npm:^5.6.0":
+"@ethersproject/networks@npm:5.7.1, @ethersproject/networks@npm:^5.6.0":
   version: 5.7.1
   resolution: "@ethersproject/networks@npm:5.7.1"
   dependencies:
@@ -1912,6 +1912,34 @@ __metadata:
     bech32: 1.1.4
     ws: 7.4.6
   checksum: a6f80cea838424ceb367ff8e0f004f9fd6b43a87505da9d6aef33eb2bbc77cdb03ab51709ae83b7aa07d038fadf00634e08d8683fe6ae8b17b9351e3b30b26cb
+  languageName: node
+  linkType: hard
+
+"@ethersproject/providers@npm:5.7.2, @ethersproject/providers@npm:^5.7.2":
+  version: 5.7.2
+  resolution: "@ethersproject/providers@npm:5.7.2"
+  dependencies:
+    "@ethersproject/abstract-provider": ^5.7.0
+    "@ethersproject/abstract-signer": ^5.7.0
+    "@ethersproject/address": ^5.7.0
+    "@ethersproject/base64": ^5.7.0
+    "@ethersproject/basex": ^5.7.0
+    "@ethersproject/bignumber": ^5.7.0
+    "@ethersproject/bytes": ^5.7.0
+    "@ethersproject/constants": ^5.7.0
+    "@ethersproject/hash": ^5.7.0
+    "@ethersproject/logger": ^5.7.0
+    "@ethersproject/networks": ^5.7.0
+    "@ethersproject/properties": ^5.7.0
+    "@ethersproject/random": ^5.7.0
+    "@ethersproject/rlp": ^5.7.0
+    "@ethersproject/sha2": ^5.7.0
+    "@ethersproject/strings": ^5.7.0
+    "@ethersproject/transactions": ^5.7.0
+    "@ethersproject/web": ^5.7.0
+    bech32: 1.1.4
+    ws: 7.4.6
+  checksum: 1754c731a5ca6782ae9677f4a9cd8b6246c4ef21a966c9a01b133750f3c578431ec43ec254e699969c4a0f87e84463ded50f96b415600aabd37d2056aee58c19
   languageName: node
   linkType: hard
 
@@ -2183,7 +2211,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@ethersproject/web@npm:^5.6.0":
+"@ethersproject/web@npm:5.7.1, @ethersproject/web@npm:^5.6.0":
   version: 5.7.1
   resolution: "@ethersproject/web@npm:5.7.1"
   dependencies:
@@ -2986,6 +3014,55 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@msgpackr-extract/msgpackr-extract-darwin-arm64@npm:3.0.2":
+  version: 3.0.2
+  resolution: "@msgpackr-extract/msgpackr-extract-darwin-arm64@npm:3.0.2"
+  conditions: os=darwin & cpu=arm64
+  languageName: node
+  linkType: hard
+
+"@msgpackr-extract/msgpackr-extract-darwin-x64@npm:3.0.2":
+  version: 3.0.2
+  resolution: "@msgpackr-extract/msgpackr-extract-darwin-x64@npm:3.0.2"
+  conditions: os=darwin & cpu=x64
+  languageName: node
+  linkType: hard
+
+"@msgpackr-extract/msgpackr-extract-linux-arm64@npm:3.0.2":
+  version: 3.0.2
+  resolution: "@msgpackr-extract/msgpackr-extract-linux-arm64@npm:3.0.2"
+  conditions: os=linux & cpu=arm64
+  languageName: node
+  linkType: hard
+
+"@msgpackr-extract/msgpackr-extract-linux-arm@npm:3.0.2":
+  version: 3.0.2
+  resolution: "@msgpackr-extract/msgpackr-extract-linux-arm@npm:3.0.2"
+  conditions: os=linux & cpu=arm
+  languageName: node
+  linkType: hard
+
+"@msgpackr-extract/msgpackr-extract-linux-x64@npm:3.0.2":
+  version: 3.0.2
+  resolution: "@msgpackr-extract/msgpackr-extract-linux-x64@npm:3.0.2"
+  conditions: os=linux & cpu=x64
+  languageName: node
+  linkType: hard
+
+"@msgpackr-extract/msgpackr-extract-win32-x64@npm:3.0.2":
+  version: 3.0.2
+  resolution: "@msgpackr-extract/msgpackr-extract-win32-x64@npm:3.0.2"
+  conditions: os=win32 & cpu=x64
+  languageName: node
+  linkType: hard
+
+"@noble/ed25519@npm:^1.5.1":
+  version: 1.7.3
+  resolution: "@noble/ed25519@npm:1.7.3"
+  checksum: 45169927d51de513e47bbeebff3a603433c4ac7579e1b8c5034c380a0afedbe85e6959be3d69584a7a5ed6828d638f8f28879003b9bb2fb5f22d8aa2d88fd5fe
+  languageName: node
+  linkType: hard
+
 "@noble/ed25519@npm:^1.7.0":
   version: 1.7.1
   resolution: "@noble/ed25519@npm:1.7.1"
@@ -3000,7 +3077,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@noble/secp256k1@npm:^1.6.3":
+"@noble/secp256k1@npm:^1.3.0, @noble/secp256k1@npm:^1.6.3":
   version: 1.7.1
   resolution: "@noble/secp256k1@npm:1.7.1"
   checksum: d2301f1f7690368d8409a3152450458f27e54df47e3f917292de3de82c298770890c2de7c967d237eff9c95b70af485389a9695f73eb05a43e2bd562d18b18cb
@@ -3124,6 +3201,55 @@ __metadata:
   version: 1.1.0
   resolution: "@protobufjs/utf8@npm:1.1.0"
   checksum: f9bf3163d13aaa3b6f5e6fbf37a116e094ea021c0e1f2a7ccd0e12a29e2ce08dafba4e8b36e13f8ed7397e1591610ce880ed1289af4d66cf4ace8a36a9557278
+  languageName: node
+  linkType: hard
+
+"@rpch/common@npm:0.2.1":
+  version: 0.2.1
+  resolution: "@rpch/common@npm:0.2.1"
+  dependencies:
+    cross-fetch: 3.2.0-alpha.2
+    debug: ^4.3.4
+    ethers: ^5.7.2
+    isomorphic-ws: ^5.0.0
+    lz-string: ^1.5.0
+    msgpackr: ^1.8.5
+    peer-id: ^0.16.0
+    ws: ^8.11.0
+  checksum: e8531563667e4f0c1daa8c6df54e3b9be946fdb277af23445be6ed8d48aa97f4b1e9d894ea42ab44a6f151f340451e115280648ef4b74d817807b638a5fce110
+  languageName: node
+  linkType: hard
+
+"@rpch/crypto@npm:^0.3.4":
+  version: 0.3.4
+  resolution: "@rpch/crypto@npm:0.3.4"
+  checksum: ca577d036e28bc8e6481e144119bb739d1c1fa7f015b799f7eef7ce78b03318e4cb54b42cfdfa28ee36f86b57c740ae20f8bf35934fc17291a003c5092e3b895
+  languageName: node
+  linkType: hard
+
+"@rpch/ethers@npm:^0.2.1":
+  version: 0.2.1
+  resolution: "@rpch/ethers@npm:0.2.1"
+  dependencies:
+    "@ethersproject/properties": ^5.7.0
+    "@ethersproject/providers": ^5.7.2
+    "@rpch/common": 0.2.1
+    "@rpch/sdk": 0.2.1
+  peerDependencies:
+    ethers: ^5.7.2
+  checksum: e75084c1f4c99c4c5aedf9b63c93ce61299ec56dbd1395488c32ffdc2a442e39294b3a9c917dfc316104224ac20b8b4b3e7a91b302663f51e637494975a0107f
+  languageName: node
+  linkType: hard
+
+"@rpch/sdk@npm:0.2.1":
+  version: 0.2.1
+  resolution: "@rpch/sdk@npm:0.2.1"
+  dependencies:
+    "@rpch/common": 0.2.1
+    async-retry: ^1.3.3
+    cross-fetch: 3.2.0-alpha.2
+    ethers: ^5.7.2
+  checksum: 60290390573f01740663b9a575d98e4f3b692d64467d28e19df6d16bbefd12c728a6bae823a3d912d1e235a615c617a7b56bf53a74681a1e58ece0cc792503b8
   languageName: node
   linkType: hard
 
@@ -4566,6 +4692,15 @@ __metadata:
   version: 1.0.1
   resolution: "async-limiter@npm:1.0.1"
   checksum: 2b849695b465d93ad44c116220dee29a5aeb63adac16c1088983c339b0de57d76e82533e8e364a93a9f997f28bbfc6a92948cefc120652bd07f3b59f8d75cf2b
+  languageName: node
+  linkType: hard
+
+"async-retry@npm:^1.3.3":
+  version: 1.3.3
+  resolution: "async-retry@npm:1.3.3"
+  dependencies:
+    retry: 0.13.1
+  checksum: 38a7152ff7265a9321ea214b9c69e8224ab1febbdec98efbbde6e562f17ff68405569b796b1c5271f354aef8783665d29953f051f68c1fc45306e61aec82fdc4
   languageName: node
   linkType: hard
 
@@ -6203,6 +6338,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"cross-fetch@npm:3.2.0-alpha.2":
+  version: 3.2.0-alpha.2
+  resolution: "cross-fetch@npm:3.2.0-alpha.2"
+  dependencies:
+    node-fetch: 2.6.5
+  checksum: 6f7573cf730f55d8eede5c5e5e253821b11e8184065f5b29410738736d04ffe502d0d43b9e349e57994bfb244f192557ffc2cde51ea443eeaf505a70c78e9105
+  languageName: node
+  linkType: hard
+
 "cross-fetch@npm:^3.1.4":
   version: 3.1.5
   resolution: "cross-fetch@npm:3.1.5"
@@ -6921,6 +7065,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"err-code@npm:^3.0.1":
+  version: 3.0.1
+  resolution: "err-code@npm:3.0.1"
+  checksum: aede1f1d5ebe6d6b30b5e3175e3cc13e67de2e2e1ad99ce4917e957d7b59e8451ed10ee37dbc6493521920a47082c479b9097e5c39438d4aff4cc84438568a5a
+  languageName: node
+  linkType: hard
+
 "errno@npm:~0.1.1":
   version: 0.1.8
   resolution: "errno@npm:0.1.8"
@@ -7580,6 +7731,44 @@ __metadata:
     "@ethersproject/web": 5.7.0
     "@ethersproject/wordlists": 5.7.0
   checksum: 03b16c194e035a25c0c522b81f5bb9d2157f9389db3227066ff3bbf0bd348218a25b576a5293078b61885bd2be6871e1da8232cf5351ce72de1189c89e4d05c7
+  languageName: node
+  linkType: hard
+
+"ethers@npm:^5.7.2":
+  version: 5.7.2
+  resolution: "ethers@npm:5.7.2"
+  dependencies:
+    "@ethersproject/abi": 5.7.0
+    "@ethersproject/abstract-provider": 5.7.0
+    "@ethersproject/abstract-signer": 5.7.0
+    "@ethersproject/address": 5.7.0
+    "@ethersproject/base64": 5.7.0
+    "@ethersproject/basex": 5.7.0
+    "@ethersproject/bignumber": 5.7.0
+    "@ethersproject/bytes": 5.7.0
+    "@ethersproject/constants": 5.7.0
+    "@ethersproject/contracts": 5.7.0
+    "@ethersproject/hash": 5.7.0
+    "@ethersproject/hdnode": 5.7.0
+    "@ethersproject/json-wallets": 5.7.0
+    "@ethersproject/keccak256": 5.7.0
+    "@ethersproject/logger": 5.7.0
+    "@ethersproject/networks": 5.7.1
+    "@ethersproject/pbkdf2": 5.7.0
+    "@ethersproject/properties": 5.7.0
+    "@ethersproject/providers": 5.7.2
+    "@ethersproject/random": 5.7.0
+    "@ethersproject/rlp": 5.7.0
+    "@ethersproject/sha2": 5.7.0
+    "@ethersproject/signing-key": 5.7.0
+    "@ethersproject/solidity": 5.7.0
+    "@ethersproject/strings": 5.7.0
+    "@ethersproject/transactions": 5.7.0
+    "@ethersproject/units": 5.7.0
+    "@ethersproject/wallet": 5.7.0
+    "@ethersproject/web": 5.7.1
+    "@ethersproject/wordlists": 5.7.0
+  checksum: b7c08cf3e257185a7946117dbbf764433b7ba0e77c27298dec6088b3bc871aff711462b0621930c56880ff0a7ceb8b1d3a361ffa259f93377b48e34107f62553
   languageName: node
   linkType: hard
 
@@ -9399,6 +9588,16 @@ __metadata:
   languageName: node
   linkType: hard
 
+"iso-random-stream@npm:^2.0.0":
+  version: 2.0.2
+  resolution: "iso-random-stream@npm:2.0.2"
+  dependencies:
+    events: ^3.3.0
+    readable-stream: ^3.4.0
+  checksum: 53d44061cc7a000df4a35aa544fe04c7d0c903238ee8bb903b5eb280edaa6862512f7f7804cc4e35598e20accf9effc1131bdd6c8f5554ccf96e731ce969d77b
+  languageName: node
+  linkType: hard
+
 "isobject@npm:^3.0.1":
   version: 3.0.1
   resolution: "isobject@npm:3.0.1"
@@ -9422,6 +9621,15 @@ __metadata:
   peerDependencies:
     ws: "*"
   checksum: d7190eadefdc28bdb93d67b5f0c603385aaf87724fa2974abb382ac1ec9756ed2cfb27065cbe76122879c2d452e2982bc4314317f3d6c737ddda6c047328771a
+  languageName: node
+  linkType: hard
+
+"isomorphic-ws@npm:^5.0.0":
+  version: 5.0.0
+  resolution: "isomorphic-ws@npm:5.0.0"
+  peerDependencies:
+    ws: "*"
+  checksum: e20eb2aee09ba96247465fda40c6d22c1153394c0144fa34fe6609f341af4c8c564f60ea3ba762335a7a9c306809349f9b863c8beedf2beea09b299834ad5398
   languageName: node
   linkType: hard
 
@@ -10418,6 +10626,22 @@ __metadata:
   languageName: node
   linkType: hard
 
+"libp2p-crypto@npm:^0.21.0":
+  version: 0.21.2
+  resolution: "libp2p-crypto@npm:0.21.2"
+  dependencies:
+    "@noble/ed25519": ^1.5.1
+    "@noble/secp256k1": ^1.3.0
+    err-code: ^3.0.1
+    iso-random-stream: ^2.0.0
+    multiformats: ^9.4.5
+    node-forge: ^1.2.1
+    protobufjs: ^6.11.2
+    uint8arrays: ^3.0.0
+  checksum: e03f8398db3a2913374b6a4b13560aec0c8e2d244c80fa0b2f119600789c445b235be01987580262a91d63e590f0f1a185728ea4b8697e5d4dfc9ec6da5266d6
+  languageName: node
+  linkType: hard
+
 "lines-and-columns@npm:^1.1.6":
   version: 1.2.4
   resolution: "lines-and-columns@npm:1.2.4"
@@ -10433,6 +10657,8 @@ __metadata:
     "@changesets/cli": ^2.24.3
     "@commitlint/cli": ^16.2.3
     "@commitlint/config-conventional": ^16.2.1
+    "@rpch/crypto": ^0.3.4
+    "@rpch/ethers": ^0.2.1
     "@types/amplitude-js": ^8.16.0
     "@types/bluebird": ^3.5.36
     "@types/chai": ^4.3.3
@@ -10649,6 +10875,15 @@ __metadata:
   version: 2.5.2
   resolution: "luxon@npm:2.5.2"
   checksum: d8b671ffd2ff0b438af862ac11082a81b3aedd9f8b6a4ca636f944224f8dd381125cd4d274ca0a8aedcaf2cfca0fc2ca96fe4cc1b16a28b7af701afb95c0bff8
+  languageName: node
+  linkType: hard
+
+"lz-string@npm:^1.5.0":
+  version: 1.5.0
+  resolution: "lz-string@npm:1.5.0"
+  bin:
+    lz-string: bin/bin.js
+  checksum: 1ee98b4580246fd90dd54da6e346fb1caefcf05f677c686d9af237a157fdea3fd7c83a4bc58f858cd5b10a34d27afe0fdcbd0505a47e0590726a873dc8b8f65d
   languageName: node
   linkType: hard
 
@@ -11246,6 +11481,49 @@ __metadata:
   languageName: node
   linkType: hard
 
+"msgpackr-extract@npm:^3.0.2":
+  version: 3.0.2
+  resolution: "msgpackr-extract@npm:3.0.2"
+  dependencies:
+    "@msgpackr-extract/msgpackr-extract-darwin-arm64": 3.0.2
+    "@msgpackr-extract/msgpackr-extract-darwin-x64": 3.0.2
+    "@msgpackr-extract/msgpackr-extract-linux-arm": 3.0.2
+    "@msgpackr-extract/msgpackr-extract-linux-arm64": 3.0.2
+    "@msgpackr-extract/msgpackr-extract-linux-x64": 3.0.2
+    "@msgpackr-extract/msgpackr-extract-win32-x64": 3.0.2
+    node-gyp: latest
+    node-gyp-build-optional-packages: 5.0.7
+  dependenciesMeta:
+    "@msgpackr-extract/msgpackr-extract-darwin-arm64":
+      optional: true
+    "@msgpackr-extract/msgpackr-extract-darwin-x64":
+      optional: true
+    "@msgpackr-extract/msgpackr-extract-linux-arm":
+      optional: true
+    "@msgpackr-extract/msgpackr-extract-linux-arm64":
+      optional: true
+    "@msgpackr-extract/msgpackr-extract-linux-x64":
+      optional: true
+    "@msgpackr-extract/msgpackr-extract-win32-x64":
+      optional: true
+  bin:
+    download-msgpackr-prebuilds: bin/download-prebuilds.js
+  checksum: 5adb809b965bac41c310e60373d54c955fe78e4d134ab036d0f9ee5b322cec0a739878d395e17c1ac82d840705896b2dafae6a8cc04ad34c14d2de4b06b58330
+  languageName: node
+  linkType: hard
+
+"msgpackr@npm:^1.8.5":
+  version: 1.9.1
+  resolution: "msgpackr@npm:1.9.1"
+  dependencies:
+    msgpackr-extract: ^3.0.2
+  dependenciesMeta:
+    msgpackr-extract:
+      optional: true
+  checksum: 514993bfad40e123bbbe0238b7424f4f3945c69b1414b37d126e731a9c2709eb96d3475cdec874836462f53e67f82f615d3dbb5b4860af854969fb9502e9820f
+  languageName: node
+  linkType: hard
+
 "multibase@npm:^0.7.0":
   version: 0.7.0
   resolution: "multibase@npm:0.7.0"
@@ -11282,6 +11560,13 @@ __metadata:
     buffer: ^5.6.0
     varint: ^5.0.0
   checksum: e6a2916fa76c023b1c90b32ae74f8a781cf0727f71660b245a5ed1db46add6f2ce1586bee5713b16caf0a724e81bfe0678d89910c20d3bb5fd9649dacb2be79e
+  languageName: node
+  linkType: hard
+
+"multiformats@npm:^9.4.2, multiformats@npm:^9.4.5":
+  version: 9.9.0
+  resolution: "multiformats@npm:9.9.0"
+  checksum: d3e8c1be400c09a014f557ea02251a2710dbc9fca5aa32cc702ff29f636c5471e17979f30bdcb0a9cbb556f162a8591dc2e1219c24fc21394a56115b820bb84e
   languageName: node
   linkType: hard
 
@@ -11466,6 +11751,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"node-fetch@npm:2.6.5":
+  version: 2.6.5
+  resolution: "node-fetch@npm:2.6.5"
+  dependencies:
+    whatwg-url: ^5.0.0
+  checksum: 4e83db450718e70762882f00d96f647a7f2f3170035225934ddd5450cb1d91ef339ceb180d3687bcb0a6ed78c3fa5636ce8d3e44ec81ab59e0224ebf8965f65f
+  languageName: node
+  linkType: hard
+
 "node-fetch@npm:2.6.7, node-fetch@npm:^2.6.1":
   version: 2.6.7
   resolution: "node-fetch@npm:2.6.7"
@@ -11477,6 +11771,24 @@ __metadata:
     encoding:
       optional: true
   checksum: 8d816ffd1ee22cab8301c7756ef04f3437f18dace86a1dae22cf81db8ef29c0bf6655f3215cb0cdb22b420b6fe141e64b26905e7f33f9377a7fa59135ea3e10b
+  languageName: node
+  linkType: hard
+
+"node-forge@npm:^1.2.1":
+  version: 1.3.1
+  resolution: "node-forge@npm:1.3.1"
+  checksum: 08fb072d3d670599c89a1704b3e9c649ff1b998256737f0e06fbd1a5bf41cae4457ccaee32d95052d80bbafd9ffe01284e078c8071f0267dc9744e51c5ed42a9
+  languageName: node
+  linkType: hard
+
+"node-gyp-build-optional-packages@npm:5.0.7":
+  version: 5.0.7
+  resolution: "node-gyp-build-optional-packages@npm:5.0.7"
+  bin:
+    node-gyp-build-optional-packages: bin.js
+    node-gyp-build-optional-packages-optional: optional.js
+    node-gyp-build-optional-packages-test: build-test.js
+  checksum: bcb4537af15bcb3811914ea0db8f69284ca10db1cc7543a167a4c41ae4b9b5044b133f789fdadad0b7adc6931f6ae7def3c75b0bc7b05836881aae52400163e6
   languageName: node
   linkType: hard
 
@@ -12108,6 +12420,19 @@ __metadata:
   languageName: node
   linkType: hard
 
+"peer-id@npm:^0.16.0":
+  version: 0.16.0
+  resolution: "peer-id@npm:0.16.0"
+  dependencies:
+    class-is: ^1.1.0
+    libp2p-crypto: ^0.21.0
+    multiformats: ^9.4.5
+    protobufjs: ^6.10.2
+    uint8arrays: ^3.0.0
+  checksum: 35dfb887c6f00789702214488e1f97dd1713ed77909b7f9be13b20003aed64cc444bf15e6bd845c01d47f424856acca7fa1f0501b785f5cb6e6707e3f05b9f41
+  languageName: node
+  linkType: hard
+
 "performance-now@npm:^2.1.0":
   version: 2.1.0
   resolution: "performance-now@npm:2.1.0"
@@ -12351,7 +12676,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"protobufjs@npm:~6.11.2":
+"protobufjs@npm:^6.10.2, protobufjs@npm:^6.11.2, protobufjs@npm:~6.11.2":
   version: 6.11.3
   resolution: "protobufjs@npm:6.11.3"
   dependencies:
@@ -12912,6 +13237,13 @@ __metadata:
   version: 0.2.2
   resolution: "ret@npm:0.2.2"
   checksum: 774964bb413a3525e687bca92d81c1cd75555ec33147c32ecca22f3d06409e35df87952cfe3d57afff7650a0f7e42139cf60cb44e94c29dde390243bc1941f16
+  languageName: node
+  linkType: hard
+
+"retry@npm:0.13.1":
+  version: 0.13.1
+  resolution: "retry@npm:0.13.1"
+  checksum: 47c4d5be674f7c13eee4cfe927345023972197dbbdfba5d3af7e461d13b44de1bfd663bfc80d2f601f8ef3fc8164c16dd99655a221921954a65d044a2fc1233b
   languageName: node
   linkType: hard
 
@@ -14600,6 +14932,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"uint8arrays@npm:^3.0.0":
+  version: 3.1.1
+  resolution: "uint8arrays@npm:3.1.1"
+  dependencies:
+    multiformats: ^9.4.2
+  checksum: b93b6c3f0a526b116799f3a3409bd4b5d5553eb3e73e485998ece7974742254fbc0d2f7988dd21ac86c4b974552f45d9ae9cf9cba9647e529f8eb1fdd2ed84d0
+  languageName: node
+  linkType: hard
+
 "ultron@npm:~1.1.0":
   version: 1.1.1
   resolution: "ultron@npm:1.1.1"
@@ -15757,6 +16098,21 @@ __metadata:
     utf-8-validate:
       optional: true
   checksum: c3c100a181b731f40b7f2fddf004aa023f79d64f489706a28bc23ff88e87f6a64b3c6651fbec3a84a53960b75159574d7a7385709847a62ddb7ad6af76f49138
+  languageName: node
+  linkType: hard
+
+"ws@npm:^8.11.0":
+  version: 8.13.0
+  resolution: "ws@npm:8.13.0"
+  peerDependencies:
+    bufferutil: ^4.0.1
+    utf-8-validate: ">=5.0.2"
+  peerDependenciesMeta:
+    bufferutil:
+      optional: true
+    utf-8-validate:
+      optional: true
+  checksum: 53e991bbf928faf5dc6efac9b8eb9ab6497c69feeb94f963d648b7a3530a720b19ec2e0ec037344257e05a4f35bd9ad04d9de6f289615ffb133282031b18c61c
   languageName: node
   linkType: hard
 

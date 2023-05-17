@@ -147,6 +147,7 @@ const getEvmAccountsWithMulticalEnabled = (
           chainId: acc.chain,
           accountId: a,
         }) as Client<EvmChainProvider>;
+        console.log(client)
 
         // add only EVM chains that has multicall support
         if (client.chain.multicall) {

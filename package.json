@@ -73,5 +73,9 @@
     "@ledgerhq/cryptoassets": "7.3.0",
     "@ledgerhq/hw-app-eth": "6.30.5",
     "@ledgerhq/hw-app-btc": "9.1.2"
+  },
+  "dependencies": {
+    "@rpch/crypto": "^0.3.4",
+    "@rpch/ethers": "^0.2.1"
   }
 }

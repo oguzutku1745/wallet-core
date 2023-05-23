@@ -35,6 +35,8 @@
     "@liquality/cryptoassets": "workspace:*",
     "@liquality/error-parser": "workspace:*",
     "@metamask/eth-sig-util": "^4.0.1",
+    "@rpch/ethers": "^0.2.1",
+    "@rpch/rpch-crypto": "file:/Users/ouyildiz/Desktop/Liquality/crypto/build/web",
     "@teleportdao/bitcoin": "^1.0.3",
     "@teleportdao/configs": "^1.0.3",
     "@teleportdao/scripts": "^1.0.3",

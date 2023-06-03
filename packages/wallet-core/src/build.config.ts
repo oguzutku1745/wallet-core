@@ -134,7 +134,7 @@ const config: WalletCoreConfig = {
       },
       [SwapProviderType.TeleSwap]: {
         name: 'TeleSwap',
-        icon: 'teleswap.png',
+        icon: 'lifi.svg',
         type: SwapProviderType.TeleSwap,
         network: Network.Testnet,
         QuickSwapRouterAddress: '0x8954AfA98594b838bda56FE4C12a09D7739D179b',
@@ -244,7 +244,7 @@ const config: WalletCoreConfig = {
       },
       [SwapProviderType.TeleSwap]: {
         name: 'TeleSwap',
-        icon: 'teleswap.png',
+        icon: 'lifi.svg',
         type: SwapProviderType.TeleSwap,
         network: Network.Mainnet,
         QuickSwapRouterAddress: '0xa5E0829CaCEd8fFDD4De3c43696c57F7D7A678ff',

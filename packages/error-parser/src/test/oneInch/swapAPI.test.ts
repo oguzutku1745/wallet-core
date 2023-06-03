@@ -1,7 +1,7 @@
 import { OneInchError, ONE_INCH_ERRORS } from '../../parsers/OneInchAPI';
 import { FAKE_ERROR, getError, getErrorAsync } from '..';
 import { LiqualityError } from '../../LiqualityErrors/LiqualityError';
-import RandExp = require('randexp');
+import RandExp from 'randexp';
 import {
   getErrorParser,
   InsufficientFundsError,

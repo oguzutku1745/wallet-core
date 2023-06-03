@@ -1,7 +1,7 @@
 import { LifiQuoteError, LIFI_QUOTE_ERRORS, ToolErrorCode } from '../../parsers/LifiAPI';
 import { getError } from '..';
 import { LiqualityError } from '../../LiqualityErrors/LiqualityError';
-import RandExp = require('randexp');
+import RandExp from 'randexp';
 import {
   getErrorParser,
   HighInputAmountError,

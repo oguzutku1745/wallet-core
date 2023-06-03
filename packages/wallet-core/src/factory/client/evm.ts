@@ -18,7 +18,7 @@ import { asL2Provider } from '@eth-optimism/sdk';
 import { CUSTOM_ERRORS, createInternalError } from '@liquality/error-parser';
 import BaseStorageStore from '../../store/basestore';
 import { RPChProvider } from '@rpch/ethers';
-import * as RPChCrypto from '@rpch/rpch-crypto';
+import * as RPChCrypto from '@rpch/crypto';
 
 let rpchProvider: StaticJsonRpcProvider;
 
@@ -29,12 +29,12 @@ class RPChStore extends BaseStorageStore<string> {
 }
 const rpchStore = new RPChStore();
 
-export async function createEvmClient(
+export function createEvmClient(
   chain: EvmChain,
   settings: ClientSettings<ChainifyNetwork>,
   mnemonic: string,
   accountInfo: AccountInfo
-): Promise<Client<Chain<any, Network>, Wallet<any, any>, Swap<any, any, Wallet<any, any>>>> {
+): Client<Chain<any, Network>, Wallet<any, any>, Swap<any, any, Wallet<any, any>>> {
   const chainProvider = getEvmProvider(chain, settings);
   const walletProvider = getEvmWalletProvider(settings.chainifyNetwork, accountInfo, chainProvider, mnemonic);
   const client = new Client().connect(walletProvider);

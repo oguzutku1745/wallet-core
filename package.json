@@ -10,6 +10,8 @@
     "@changesets/cli": "^2.24.3",
     "@commitlint/cli": "^16.2.3",
     "@commitlint/config-conventional": "^16.2.1",
+    "@rpch/crypto": "^0.3.4",
+    "@rpch/ethers": "^0.1.7",
     "@types/amplitude-js": "^8.16.0",
     "@types/bluebird": "^3.5.36",
     "@types/chai": "^4.3.3",

@@ -1,8 +1,10 @@
 {
   "compilerOptions": {
     "target": "es6",
+    "lib": ["esnext", "dom", "DOM.Iterable"],
     "declaration": true,
     "module": "CommonJS",
+    "allowJs": true,
     "moduleResolution": "node",
     "alwaysStrict": true,
     "sourceMap": true,

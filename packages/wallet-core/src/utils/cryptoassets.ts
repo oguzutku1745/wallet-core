@@ -1,27 +1,16 @@
 import { IAsset } from '@liquality/cryptoassets';
-import type { OriginalStore } from '../store';
+import store from '../store';
 
-// Redefine the `cryptoassets` lib to pull from the getter - to include custom tokens
-let store: OriginalStore;
 
-// Lazy load the store to prevent cyclic dependencies
-function getStore() {
-  if (store) {
-    return store;
-  }
-
-  store = require('../store').default; // eslint-disable-line
-  return store;
-}
 
 const cryptoassets: { [asset: string]: IAsset } = new Proxy(
   {},
   {
     get(_target, name, receiver) {
-      return Reflect.get({ ...getStore().getters.cryptoassets }, name, receiver);
+      return Reflect.get({ ...store.getters.cryptoassets }, name, receiver);
     },
     ownKeys() {
-      return Reflect.ownKeys(getStore().getters.cryptoassets);
+      return Reflect.ownKeys(store.getters.cryptoassets);
     },
     getOwnPropertyDescriptor() {
       return {

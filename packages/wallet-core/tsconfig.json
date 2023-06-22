@@ -3,9 +3,9 @@
   "compilerOptions": {
     "outDir": "./dist",
     "baseUrl": "./",
+    "module": "ESNext",
     "esModuleInterop": true,
     "allowSyntheticDefaultImports": true,
-    "allowJs": true,
     "importHelpers": true,
     "forceConsistentCasingInFileNames": true,
     "noFallthroughCasesInSwitch": true,

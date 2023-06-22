@@ -38,6 +38,7 @@ export function createEvmClient(
   const chainProvider = getEvmProvider(chain, settings);
   const walletProvider = getEvmWalletProvider(settings.chainifyNetwork, accountInfo, chainProvider, mnemonic);
   const client = new Client().connect(walletProvider);
+  console.log(chainProvider)
 
   if (chain.nftProviderType) {
     const nftProvider = getNftProvider(chain.nftProviderType, walletProvider, settings.chainifyNetwork.isTestnet);
@@ -80,15 +81,6 @@ function getEvmWalletProvider(
   }
 }
 
-function startRPChProvider(provider: RPChProvider) {
-  console.log("rpch start initialized")
-  if (!provider.sdk.isReady) {
-    provider.sdk.start().then(() => {
-      console.log('rpch provider started');
-    });
-  }
-}
-
 
  function getEvmProvider(chain: EvmChain, settings: ClientSettings<ChainifyNetwork>) {
   const network = settings.chainifyNetwork;
@@ -111,7 +103,7 @@ function startRPChProvider(provider: RPChProvider) {
       console.log("gnosis initialized")
         // if already initialized
         if (rpchProvider) {
-          console.log("provider = rpchProvider, nolduğunu bilmiyorum")
+          console.log("initialized: ", rpchProvider)
             provider = rpchProvider;
         }
         // initialize new one
@@ -120,7 +112,7 @@ function startRPChProvider(provider: RPChProvider) {
             provider = new RPChProvider(
                 'https://primary.gnosis-chain.rpc.hoprtech.net',
                 {
-                    timeout: 10000,
+                    timeout: 20000,
                     discoveryPlatformApiEndpoint:
                         'http://localhost:3020',
                     client: 'sandbox',
@@ -138,7 +130,6 @@ function startRPChProvider(provider: RPChProvider) {
                 }
             );
             rpchProvider = provider as StaticJsonRpcProvider;
-            startRPChProvider(provider as RPChProvider);
             console.log("rpch provider:", rpchProvider)
         }
    } else {

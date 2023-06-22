@@ -1,7 +1,7 @@
 import amplitude from 'amplitude-js';
 import { v4 as uuidv4 } from 'uuid';
 import { ActionContext, rootActionContext } from '..';
-import { version as walletCoreVersion } from '../../../package.json';
+import packageJson from '../../../package.json';
 import { AnalyticsState } from '../types';
 
 export interface AmplitudeProperties {
@@ -11,6 +11,7 @@ export interface AmplitudeProperties {
   [key: string]: any;
 }
 
+const walletCoreVersion = packageJson.version;
 const useAnalytics = !!process.env.VUE_APP_AMPLITUDE_API_KEY;
 
 export const initializeAnalyticsPreferences = (context: ActionContext, { accepted }: { accepted: boolean }) => {
